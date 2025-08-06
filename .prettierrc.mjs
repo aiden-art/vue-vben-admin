@@ -1,1 +1,1 @@
-export { default } from '@vben/prettier-config';
+export { default } from '@oasis/prettier-config';

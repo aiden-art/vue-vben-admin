@@ -1,7 +1,7 @@
 import { computed } from 'vue';
 
-import { preferences } from '@vben/preferences';
-import '@vben/styles';
+import { preferences } from '@oasis/preferences';
+import '@oasis/styles';
 
 import { createDiscreteApi, darkTheme, lightTheme } from 'naive-ui';
 

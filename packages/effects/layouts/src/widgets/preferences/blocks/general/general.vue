@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { SUPPORT_LANGUAGES } from '@vben/constants';
-import { $t } from '@vben/locales';
+import { SUPPORT_LANGUAGES } from '@oasis/constants';
+import { $t } from '@oasis/locales';
 
 import SelectItem from '../select-item.vue';
 import SwitchItem from '../switch-item.vue';

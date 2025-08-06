@@ -5,7 +5,7 @@ import {
   findMonorepoRoot,
   getPackages,
   readPackageJSON,
-} from '@vben/node-utils';
+} from '@oasis/node-utils';
 
 import { readWorkspaceManifest } from '@pnpm/workspace.read-manifest';
 

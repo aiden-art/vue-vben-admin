@@ -3,9 +3,9 @@ import type { VNode } from 'vue';
 
 import { computed, ref, useAttrs, watch, watchEffect } from 'vue';
 
-import { usePagination } from '@vben/hooks';
-import { EmptyIcon, Grip, listIcons } from '@vben/icons';
-import { $t } from '@vben/locales';
+import { usePagination } from '@oasis/hooks';
+import { EmptyIcon, Grip, listIcons } from '@oasis/icons';
+import { $t } from '@oasis/locales';
 
 import {
   Button,
@@ -21,8 +21,8 @@ import {
   VbenIcon,
   VbenIconButton,
   VbenPopover,
-} from '@vben-core/shadcn-ui';
-import { isFunction } from '@vben-core/shared/utils';
+} from '@oasis-core/shadcn-ui';
+import { isFunction } from '@oasis-core/shared/utils';
 
 import { objectOmit, refDebounced, watchDebounced } from '@vueuse/core';
 

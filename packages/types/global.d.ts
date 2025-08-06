@@ -1,4 +1,4 @@
-import type { RouteMeta as IRouteMeta } from '@vben-core/typings';
+import type { RouteMeta as IRouteMeta } from '@oasis-core/typings';
 
 import 'vue-router';
 

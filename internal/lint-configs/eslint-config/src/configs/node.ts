@@ -19,11 +19,11 @@ export async function node(): Promise<Linter.Config[]> {
           {
             allowModules: [
               'unbuild',
-              '@vben/vite-config',
+              '@oasis/vite-config',
               'vitest',
               'vite',
               '@vue/test-utils',
-              '@vben/tailwind-config',
+              '@oasis/tailwind-config',
               '@playwright/test',
             ],
           },

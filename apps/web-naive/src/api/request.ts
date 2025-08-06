@@ -1,17 +1,17 @@
 /**
  * 该文件可自行根据业务逻辑进行调整
  */
-import type { RequestClientOptions } from '@vben/request';
+import type { RequestClientOptions } from '@oasis/request';
 
-import { useAppConfig } from '@vben/hooks';
-import { preferences } from '@vben/preferences';
+import { useAppConfig } from '@oasis/hooks';
+import { preferences } from '@oasis/preferences';
 import {
   authenticateResponseInterceptor,
   defaultResponseInterceptor,
   errorMessageResponseInterceptor,
   RequestClient,
-} from '@vben/request';
-import { useAccessStore } from '@vben/stores';
+} from '@oasis/request';
+import { useAccessStore } from '@oasis/stores';
 
 import { message } from '#/adapter/naive';
 import { useAuthStore } from '#/store';

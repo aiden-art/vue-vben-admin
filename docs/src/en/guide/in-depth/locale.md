@@ -28,9 +28,9 @@ Switching languages consists of two parts:
 - Loading the corresponding language pack
 
 ```ts
-import type { SupportedLanguagesType } from '@vben/locales';
-import { loadLocaleMessages } from '@vben/locales';
-import { updatePreferences } from '@vben/preferences';
+import type { SupportedLanguagesType } from '@oasis/locales';
+import { loadLocaleMessages } from '@oasis/locales';
+import { updatePreferences } from '@oasis/preferences';
 
 async function updateLocale(value: string) {
   // 1. Update preferences
@@ -51,7 +51,7 @@ updateLocale('en-US');
 
 ::: warning Attention
 
-- Do not place business translation texts inside `@vben/locales` to better manage business and general translation texts.
+- Do not place business translation texts inside `@oasis/locales` to better manage business and general translation texts.
 - When adding new translation texts and multiple language packs are available, ensure to add the corresponding texts in all language packs.
 
 :::
@@ -82,14 +82,14 @@ To add new translation texts, simply find `src/locales/langs/` in the correspond
 
 ## Using Translation Texts
 
-With `@vben/locales`, you can easily use translation texts:
+With `@oasis/locales`, you can easily use translation texts:
 
 ### In Code
 
 ```vue
 <script setup lang="ts">
 import { computed } from 'vue';
-import { $t } from '@vben/locales';
+import { $t } from '@oasis/locales';
 
 const items = computed(() => [{ title: $t('about.desc') }]);
 </script>

@@ -1,14 +1,14 @@
 <script lang="ts" setup>
 import type { DataNode } from 'ant-design-vue/es/tree';
 
-import type { Recordable } from '@vben/types';
+import type { Recordable } from '@oasis/types';
 
 import type { SystemRoleApi } from '#/api/system/role';
 
 import { computed, ref } from 'vue';
 
-import { useVbenDrawer, VbenTree } from '@vben/common-ui';
-import { IconifyIcon } from '@vben/icons';
+import { useVbenDrawer, VbenTree } from '@oasis/common-ui';
+import { IconifyIcon } from '@oasis/icons';
 
 import { Spin } from 'ant-design-vue';
 

@@ -2,10 +2,10 @@
 import { reactive } from 'vue';
 import { useRoute } from 'vue-router';
 
-import { Page } from '@vben/common-ui';
-import { useAccessStore } from '@vben/stores';
+import { Page } from '@oasis/common-ui';
+import { useAccessStore } from '@oasis/stores';
 
-import { MenuBadge } from '@vben-core/menu-ui';
+import { MenuBadge } from '@oasis-core/menu-ui';
 
 import { Button, Card, Radio, RadioGroup } from 'ant-design-vue';
 

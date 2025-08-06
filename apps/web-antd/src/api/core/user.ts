@@ -1,4 +1,4 @@
-import type { UserInfo } from '@vben/types';
+import type { UserInfo } from '@oasis/types';
 
 import { requestClient } from '#/api/request';
 

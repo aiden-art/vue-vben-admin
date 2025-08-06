@@ -4,7 +4,7 @@ import {
   colors,
   generatorContentHash,
   readPackageJSON,
-} from '@vben/node-utils';
+} from '@oasis/node-utils';
 
 import { loadEnv } from '../utils/env';
 

@@ -1,4 +1,4 @@
-# @vben/backend-mock
+# @oasis/backend-mock
 
 ## Description
 

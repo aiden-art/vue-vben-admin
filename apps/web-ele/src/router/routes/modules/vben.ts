@@ -6,8 +6,8 @@ import {
   VBEN_GITHUB_URL,
   VBEN_LOGO_URL,
   VBEN_NAIVE_PREVIEW_URL,
-} from '@vben/constants';
-import { SvgAntdvLogoIcon } from '@vben/icons';
+} from '@oasis/constants';
+import { SvgAntdvLogoIcon } from '@oasis/icons';
 
 import { IFrameView } from '#/layouts';
 import { $t } from '#/locales';

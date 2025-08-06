@@ -2,8 +2,8 @@
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 
-import { Page } from '@vben/common-ui';
-import { useTabs } from '@vben/hooks';
+import { Page } from '@oasis/common-ui';
+import { useTabs } from '@oasis/hooks';
 
 const route = useRoute();
 

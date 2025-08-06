@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import type { SelectOption } from '@vben/types';
+import type { SelectOption } from '@oasis/types';
 
 import { useSlots } from 'vue';
 
-import { CircleHelp } from '@vben/icons';
+import { CircleHelp } from '@oasis/icons';
 
-import { VbenCheckButtonGroup, VbenTooltip } from '@vben-core/shadcn-ui';
+import { VbenCheckButtonGroup, VbenTooltip } from '@oasis-core/shadcn-ui';
 
 defineOptions({
   name: 'PreferenceCheckboxItem',

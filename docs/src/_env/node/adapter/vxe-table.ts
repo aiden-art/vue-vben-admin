@@ -1,3 +1,3 @@
-export type * from '@vben/plugins/vxe-table';
+export type * from '@oasis/plugins/vxe-table';
 
 export const useVbenVxeGrid = () => {};

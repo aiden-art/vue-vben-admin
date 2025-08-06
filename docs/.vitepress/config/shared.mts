@@ -6,7 +6,7 @@ import { resolve } from 'node:path';
 import {
   viteArchiverPlugin,
   viteVxeTableImportsPlugin,
-} from '@vben/vite-config';
+} from '@oasis/vite-config';
 
 import {
   GitChangelog,

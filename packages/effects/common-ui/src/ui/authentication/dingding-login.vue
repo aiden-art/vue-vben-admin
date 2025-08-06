@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
 
-import { RiDingding } from '@vben/icons';
-import { $t } from '@vben/locales';
+import { RiDingding } from '@oasis/icons';
+import { $t } from '@oasis/locales';
 
-import { alert, useVbenModal } from '@vben-core/popup-ui';
-import { VbenIconButton } from '@vben-core/shadcn-ui';
-import { loadScript } from '@vben-core/shared/utils';
+import { alert, useVbenModal } from '@oasis-core/popup-ui';
+import { VbenIconButton } from '@oasis-core/shadcn-ui';
+import { loadScript } from '@oasis-core/shared/utils';
 
 interface Props {
   clientId: string;

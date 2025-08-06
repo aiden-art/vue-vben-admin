@@ -1,16 +1,16 @@
 <script lang="ts" setup>
 import type { ChangeEvent } from 'ant-design-vue/es/_util/EventInterface';
 
-import type { Recordable } from '@vben/types';
+import type { Recordable } from '@oasis/types';
 
 import type { VbenFormSchema } from '#/adapter/form';
 
 import { computed, h, ref } from 'vue';
 
-import { useVbenDrawer } from '@vben/common-ui';
-import { IconifyIcon } from '@vben/icons';
-import { $te } from '@vben/locales';
-import { getPopupContainer } from '@vben/utils';
+import { useVbenDrawer } from '@oasis/common-ui';
+import { IconifyIcon } from '@oasis/icons';
+import { $te } from '@oasis/locales';
+import { getPopupContainer } from '@oasis/utils';
 
 import { breakpointsTailwind, useBreakpoints } from '@vueuse/core';
 

@@ -1,4 +1,4 @@
-import type { RequestResponse } from '@vben/request';
+import type { RequestResponse } from '@oasis/request';
 
 import { requestClient } from '../request';
 

@@ -1,1 +1,1 @@
-export { default } from '@vben/tailwind-config';
+export { default } from '@oasis/tailwind-config';

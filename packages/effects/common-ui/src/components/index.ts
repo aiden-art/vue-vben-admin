@@ -9,8 +9,8 @@ export * from './loading';
 export * from './page';
 export * from './resize';
 export * from './tippy';
-export * from '@vben-core/form-ui';
-export * from '@vben-core/popup-ui';
+export * from '@oasis-core/form-ui';
+export * from '@oasis-core/popup-ui';
 
 // 给文档用
 export {
@@ -28,7 +28,7 @@ export {
   VbenSelect,
   VbenSpinner,
   VbenTree,
-} from '@vben-core/shadcn-ui';
+} from '@oasis-core/shadcn-ui';
 
-export type { FlattenedItem } from '@vben-core/shadcn-ui';
-export { globalShareState } from '@vben-core/shared/global-state';
+export type { FlattenedItem } from '@oasis-core/shadcn-ui';
+export { globalShareState } from '@oasis-core/shared/global-state';

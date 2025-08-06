@@ -7,9 +7,9 @@ import type {
 
 import { reactive, unref, useTemplateRef, watch, watchEffect } from 'vue';
 
-import { $t } from '@vben/locales';
+import { $t } from '@oasis/locales';
 
-import { cn } from '@vben-core/shared/utils';
+import { cn } from '@oasis-core/shared/utils';
 
 import { useTimeoutFn } from '@vueuse/core';
 

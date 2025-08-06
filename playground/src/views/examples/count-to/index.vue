@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import type { CountToProps, TransitionPresets } from '@vben/common-ui';
+import type { CountToProps, TransitionPresets } from '@oasis/common-ui';
 
 import { reactive } from 'vue';
 
-import { CountTo, Page, TransitionPresetsKeys } from '@vben/common-ui';
-import { IconifyIcon } from '@vben/icons';
+import { CountTo, Page, TransitionPresetsKeys } from '@oasis/common-ui';
+import { IconifyIcon } from '@oasis/icons';
 
 import {
   Button,

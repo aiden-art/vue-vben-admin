@@ -5,13 +5,13 @@
 
 import type { Component } from 'vue';
 
-import type { BaseFormComponentType } from '@vben/common-ui';
-import type { Recordable } from '@vben/types';
+import type { BaseFormComponentType } from '@oasis/common-ui';
+import type { Recordable } from '@oasis/types';
 
 import { defineAsyncComponent, defineComponent, h, ref } from 'vue';
 
-import { ApiComponent, globalShareState, IconPicker } from '@vben/common-ui';
-import { $t } from '@vben/locales';
+import { ApiComponent, globalShareState, IconPicker } from '@oasis/common-ui';
+import { $t } from '@oasis/locales';
 
 import { ElNotification } from 'element-plus';
 

@@ -1,13 +1,16 @@
 import type { App } from 'vue';
 
-import type { LocaleSetupOptions, SupportedLanguagesType } from '@vben/locales';
+import type {
+  LocaleSetupOptions,
+  SupportedLanguagesType,
+} from '@oasis/locales';
 
 import {
   $t,
   setupI18n as coreSetup,
   loadLocalesMapFromDir,
-} from '@vben/locales';
-import { preferences } from '@vben/preferences';
+} from '@oasis/locales';
+import { preferences } from '@oasis/preferences';
 
 const modules = import.meta.glob('./langs/**/*.json');
 

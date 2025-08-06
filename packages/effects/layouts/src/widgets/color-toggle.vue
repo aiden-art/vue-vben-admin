@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import type { BuiltinThemeType } from '@vben/types';
+import type { BuiltinThemeType } from '@oasis/types';
 
-import { Palette } from '@vben/icons';
+import { Palette } from '@oasis/icons';
 import {
   COLOR_PRESETS,
   preferences,
   updatePreferences,
-} from '@vben/preferences';
+} from '@oasis/preferences';
 
-import { VbenIconButton } from '@vben-core/shadcn-ui';
+import { VbenIconButton } from '@oasis-core/shadcn-ui';
 
 defineOptions({
   name: 'AuthenticationColorToggle',

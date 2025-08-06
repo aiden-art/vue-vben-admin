@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { useVbenModal, VbenButton } from '@vben/common-ui';
+import { useVbenModal, VbenButton } from '@oasis/common-ui';
 
 const [Modal, modalApi] = useVbenModal({
   draggable: true,

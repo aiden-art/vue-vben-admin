@@ -1,12 +1,12 @@
 {
-  "name": "@vben-core/tabs-ui",
+  "name": "@oasis-core/tabs-ui",
   "version": "5.5.8",
   "homepage": "https://github.com/vbenjs/vue-vben-admin",
   "bugs": "https://github.com/vbenjs/vue-vben-admin/issues",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vbenjs/vue-vben-admin.git",
-    "directory": "packages/@vben-core/uikit/tabs-ui"
+    "directory": "packages/@oasis-core/uikit/tabs-ui"
   },
   "license": "MIT",
   "type": "module",
@@ -37,10 +37,10 @@
     }
   },
   "dependencies": {
-    "@vben-core/composables": "workspace:*",
-    "@vben-core/icons": "workspace:*",
-    "@vben-core/shadcn-ui": "workspace:*",
-    "@vben-core/typings": "workspace:*",
+    "@oasis-core/composables": "workspace:*",
+    "@oasis-core/icons": "workspace:*",
+    "@oasis-core/shadcn-ui": "workspace:*",
+    "@oasis-core/typings": "workspace:*",
     "@vueuse/core": "catalog:",
     "vue": "catalog:"
   }
